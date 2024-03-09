@@ -1,0 +1,11 @@
+.sombras { 
+    background-image: url(img/sombrasFUNDO.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+height: 900vh;
+}

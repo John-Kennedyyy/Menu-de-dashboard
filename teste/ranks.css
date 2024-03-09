@@ -1,0 +1,11 @@
+.ranks {
+    background-image: url(img/rankSFUNDO.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    height: 900vh;
+}

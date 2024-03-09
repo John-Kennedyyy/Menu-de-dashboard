@@ -1,0 +1,11 @@
+.personagens {
+    background-image: url(img/Cha-Hae-In-in-Solo-Leveling-910x455.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+        background-attachment: fixed;
+}
+
+body {
+    height: 900vh;
+}

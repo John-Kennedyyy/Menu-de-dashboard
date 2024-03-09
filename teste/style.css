@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'outfit', sans-serif;
+}
+
+body {
+    height: 108vh;
+}
+
+nav.menu {
+    width: 80px;
+    height: 100%;
+    background-color: rgb(98, 40, 153);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(36, 2, 41) ;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+nav.menu.abrir{
+    width: 300px;
+}
+
+.expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.abrir > i{
+    color: rgb(0, 0, 0);
+    font-size:30px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100px;
+    list-style-type: none;
+}
+
+ul li.item-menu:hover {
+    background-color: rgb(36, 2, 41) ;
+}
+
+ul li.item-menu {
+    transition: 0,5;
+}
+
+ul li.ativo{
+    background-color: rgb(36, 2, 41) ;
+}
+
+ul li.item-menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 70px;
+    transition: 2s;
+    opacity: 0;
+}
+
+nav.menu.abrir .txt-link {
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+body {
+    background-image: url(img/sung.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 30px;
+    margin-left: 10px;
+    height: 200%;
+    width: 200%;
+}
